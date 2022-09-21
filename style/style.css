@@ -1,0 +1,23 @@
+
+
+* {
+    background-color: mediumpurple;
+    font-family: 'Yaro Rg';
+}
+
+
+
+.hobbies {
+    
+    vertical-align: top;
+    display: inline-block;
+    text-align: center;
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+    padding: 0 4px;
+}
+
+.hobbies p {
+    display: block;
+}
