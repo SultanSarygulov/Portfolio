@@ -1,14 +1,23 @@
 
 
 * {
-    background-color: mediumpurple;
     font-family: 'Yaro Rg';
 }
 
+header {
+    background-color: rgb(98, 20, 170);
+    padding-top: 1px;
+    font-size: 50px;
+    color: #f5bc00;
+    text-align: center;
+}
+
+h1:hover{
+    color: #FFFFFF;
+}
 
 
 .hobbies {
-    
     vertical-align: top;
     display: inline-block;
     text-align: center;
@@ -20,4 +29,51 @@
 
 .hobbies p {
     display: block;
+}
+
+span{
+    display: inline-block;
+    animation: mover 2s linear infinite;
+}
+
+.urgay {
+    text-align: center;
+    font-size: 100px;
+}
+
+span:nth-child(1) {
+    color: red;
+    padding-right: 30px;
+    animation-delay: 0.1s;
+}
+span:nth-child(2) {
+    color: rgb(245, 200, 0);
+    padding-right: 30px;
+    animation-delay: 0.3s;
+}
+span:nth-child(3) {
+    color: green;
+    animation-delay: 0.5s;
+}
+span:nth-child(4) {
+    color: blue;
+    animation-delay: 0.7s;
+}
+span:nth-child(5) {
+    color: purple;
+    animation-delay: 0.9s;
+}
+
+@keyframes mover{
+    0%{
+        text-shadow: 0 0 40px rgba(0,0,0,0);
+    }
+    50%{
+        text-shadow: 0 0 40px rgba(0,0,0,0.30);
+        transform: translateY(40px);
+    }
+    100%{
+        text-shadow: 0 0 40px rgba(0,0,0,0);
+    }
+
 }
