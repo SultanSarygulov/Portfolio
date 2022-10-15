@@ -1,4 +1,7 @@
-
+@font-face {
+    font-family: 'Yaro Rg';
+    src: url("/style/YaroRg.ttf") format("ttf");
+}
 
 * {
     font-family: 'Yaro Rg';
