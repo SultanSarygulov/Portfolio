@@ -75,3 +75,30 @@ span:nth-child(5) {
     }
 
 }
+
+.clicker_div {
+    width: 655px;
+    margin: auto;
+    padding: 15px;
+    text-align: center;
+    vertical-align: middle;
+    background-color: #f5bc00;
+}
+
+.clicker_div button {
+    padding: 0.5rem 1rem;
+    border-radius: 0.25rem;
+    transition: all 0.5s ease;
+    padding: 0;
+    font: inherit;
+    cursor: pointer;
+    outline: inherit;
+  }
+
+.clicker_div button:hover {
+    background-color: lightslategrey ;
+}
+
+.clicker_div p{
+    font-size: 30px;
+}
