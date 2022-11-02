@@ -1,18 +1,33 @@
 @font-face {
     font-family: 'Yaro Rg';
-    src: url("/style/YaroRg.ttf") format("ttf");
+    src: url("/css/YaroRg.ttf") format("ttf");
 }
 
 * {
     font-family: 'Yaro Rg';
+    margin: 0;
+    padding: 0;
 }
 
 header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 30px 10%;
     background-color: rgb(98, 20, 170);
-    padding-top: 1px;
-    font-size: 50px;
+    font-size: 20px;
     color: #f5bc00;
-    text-align: center;
+}
+
+.nav__links li {
+    display: inline-block;
+    padding: 0px 20px;
+    transition: all 0,3s ease 0s;
+    color: #f5bc00;
+}
+
+.nav__links li:hover{
+    color: #f58b00;
 }
 
 .hobbies {
