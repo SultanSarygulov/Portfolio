@@ -1,7 +1,11 @@
 # Sultan's awesome portfolio
 
 My header
+
 ![header](https://user-images.githubusercontent.com/96821799/200129502-a880ba25-ff51-4a36-911d-125178ad8c6e.PNG)
+
+My Biography
+![bio](https://user-images.githubusercontent.com/96821799/200129628-51569319-c129-4626-97ff-e9667b6d1d53.PNG)
 
 An amusing fetch API game 
 
