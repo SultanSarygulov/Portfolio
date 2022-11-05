@@ -9,6 +9,14 @@
     padding: 0;
 }
 
+section{
+    margin: 50px 0 ;
+}
+
+section h2{
+    text-align: center;
+}
+
 header {
     display: flex;
     justify-content: space-between;
@@ -19,29 +27,73 @@ header {
     color: #f5bc00;
 }
 
-.nav__links li {
+.biography{
+    margin-left: 10px;
+}
+
+.biography h4{
+    margin-top: 10px;
+    margin-left: 20px; 
+}
+
+.bio_content{
+    display: flex;
+}
+
+.bio_txt{
+    margin: 20px 20px;
+}
+
+.nav__links li{
     display: inline-block;
     padding: 0px 20px;
     transition: all 0,3s ease 0s;
-    color: #f5bc00;
 }
 
-.nav__links li:hover{
+.nav__links a{
     color: #f58b00;
 }
 
-.hobbies {
-    vertical-align: top;
-    display: inline-block;
-    text-align: center;
-    display: flex;
-    flex-wrap: wrap;
-    flex-direction: row;
-    padding: 0 4px;
+.nav__links a:hover{
+    color: #fff235;
 }
 
-.hobbies p {
-    display: block;
+.hobbies_row {
+    vertical-align: top;
+    display: inline-block;
+    justify-content: space-between;
+    text-align: center;
+    display: flex;
+    flex-direction: row;
+    padding: 10px 10%;
+
+}
+
+.img_txt{
+    float: left;
+    margin-right: 1em;
+    text-align: center;
+}
+
+.projects{
+    vertical-align: top;
+    display: inline-block;
+    justify-content: space-between;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+}
+
+.project h4{
+    margin-top: 10px;
+    margin-left: 20px; 
+}
+
+.project_txt{
+    margin-left: 10px;
+    float: center;
+    margin-right: 1em;
+    text-align: left;
 }
 
 span{
@@ -90,6 +142,7 @@ span:nth-child(5) {
     }
 
 }
+
 
 .clicker_div {
     width: 655px;
@@ -143,4 +196,13 @@ span:nth-child(5) {
 
 .anime_afkr p{
     font-size: 20px;
+}
+
+footer{
+    background-color: rgb(98, 20, 170);
+    color:rgb(245, 200, 0)
+}
+
+footer p{
+    text-align: end;
 }

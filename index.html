@@ -15,41 +15,67 @@
             <h1>Sultan Sarygulov</h1>
             <ul class="nav__links">
                 <li><a href="#Biography">Biography</a></li>
-                <li><a href="#">Hobbies</a></li>
-                <li><a href="#">Projects</a></li>
+                <li><a href="#Hobbies">Hobbies</a></li>
+                <li><a href="#Projects">Projects</a></li>
+                <li><a href="#Buttons">Buttons</a></li>
             </ul>
         </header>
 
         <main>
-            <section>
+            <section id="Biography" class="biography">
                 <h2>Biography</h2>
-                <h4>To be or to be (I don't wanna die)</h4>
-                <p>This guy was born. Then he lived. To this day he continues not dying. What a legend!</p>
+                <div class= "bio_content">
+                    <img src="img/face.jpg" alt="" width="200" >
+                    <div class="bio_div">
+                        <div class="bio_txt">
+                            <h4>To be or to be (I don't wanna die)</h4>
+                            <p>This guy was born. Then he lived. To this day he continues not dying. What a legend!</p>
+                        </div>
+
+                        <div class="bio_txt">
+                            <h4>Study, study, study</h4>
+                            <p>I was a student in the TEC school-gymnasium #12. After that, I applied to the best, prestigious university. However, I ended up in the International univeristy of Ala-Too.</p>
+                        </div>
+                    </div>
+                    
+                </div>
             </section>
             
-            <section>
+            <section id="Hobbies" class="hobbies">
                 <h2>Hobbies</h2>
-                <div class="hobbies">
-                    
-                    <img width="200" src="img/anime.jpg" alt=""> <p>Anime</p>
-                    <img width="200" src="img/nationalism.jpg" alt=""> <p>Nationalism</p>
-                    <img width="200" src="img/surfing.jpeg" alt=""> <p>Surfing Internet</p>
+                <div class="hobbies_row">
+                    <div class="img_txt">
+                        <img width="200" src="img/anime.jpg" alt=""> <p>Anime</p>
+                    </div>
+                    <div class="img_txt">
+                        <img width="200" src="img/nationalism.jpg" alt=""> <p>Nationalism</p>
+                    </div>
+                    <div class="img_txt">
+                        <img width="200" src="img/surfing.jpeg" alt=""> <p>Surfing Internet</p>
+                    </div>
                 </div>
             </section>
 
-            <section>
+            <section id="Projects" class="projects">
                 <h2>Projects</h2>
-                <img width="200" src="img/project_jojo.png" alt=""> 
-                <p>I created a dubbing team. We've dubbed several anime and movie parts</p>
-                <img width="200" src="img/project_minecraft.png" alt="">
-                <p>Currently, I'm wotking on translating Minecraft</p>
-                <iframe width="560" height="315" 
-                        src="https://www.youtube.com/embed/E8kDcSr3YjE" 
-                        title="YouTube video player" 
-                        frameborder="0" 
-                        allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" 
-                        allowfullscreen>
-                </iframe>
+                <div class="project_txt">
+                    <img width="200" src="img/project_jojo.png" alt="">
+                    <p>I created a dubbing team. We've dubbed several anime and movie parts</p>
+                </div>
+                <div class="project_txt">
+                    <img width="200" src="img/project_minecraft.png" alt="">
+                    <p>Currently, I'm wotking on translating Minecraft</p>
+                </div>
+                
+                <div class="project_txt">
+                    <iframe width="560" height="315" 
+                            src="https://www.youtube.com/embed/E8kDcSr3YjE" 
+                            title="YouTube video player" 
+                            frameborder="0" 
+                            allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" 
+                            allowfullscreen>
+                    </iframe>
+                </div>
             </section>
 
             <div class="urgay">
@@ -62,22 +88,24 @@
 
             <br>
 
-            <div class="clicker_div">
-                <button onclick="clicker()">Click me for Abiy</button>
-                <p id="score">0</p>
-                <img id="image" src="img/abiy0.jpg" width="300px">
-            </div>
-
-            <br>
-
-            <div class="anime_afkr">
-                <p>Will this person be a useful soldier in the Armed Forces of the Kyrgyz Republic?</p>
-                <img id="anime_girl" src="https://i.pinimg.com/736x/c9/e3/e8/c9e3e810a8066b885ca4e882460785fa.jpg" width="300px">
-                <div class="buttons">
-                    <button onclick="loadData()">Yes</button>
-                    <button onclick="loadData()">No</button>
+            <section id="Buttons" class="buttons">
+                <div class="clicker_div">
+                    <button onclick="clicker()">Click me for Abiy</button>
+                    <p id="score">0</p>
+                    <img id="image" src="img/abiy0.jpg" width="300px">
                 </div>
-            </div>
+
+                <br>
+
+                <div class="anime_afkr">
+                    <p>Will this person be a useful soldier in the Armed Forces of the Kyrgyz Republic?</p>
+                    <img id="anime_girl" src="https://i.pinimg.com/736x/c9/e3/e8/c9e3e810a8066b885ca4e882460785fa.jpg" width="300px">
+                    <div class="buttons">
+                        <button onclick="loadData()">Yes</button>
+                        <button onclick="loadData()">No</button>
+                    </div>
+                </div>
+            </section>
 
         </main>
 
@@ -90,7 +118,9 @@
             <a href="https://t.me/eles_akin">
                 <img width="36" src="img/telegram.png" alt="Telegram">
             </a>
-            <img width="36" src="img/phone.png" alt="Contacts">+996 703 911 246
+                <img width="36" src="img/phone.png" alt="Contacts">+996 703 911 246
+
+            <p>©Sultan Entertainment. All rights reserved</p>
         </footer>
 
     </body>
